@@ -3,19 +3,27 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE3DD5F1278B64D000C3D30E /* CustonButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3DD5F0278B64D000C3D30E /* CustonButton.swift */; };
+		CE3DD5F3278B6C1C00C3D30E /* TestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3DD5F2278B6C1C00C3D30E /* TestModel.swift */; };
 		CE49EE132789AFCF00C59E62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE49EE122789AFCF00C59E62 /* AppDelegate.swift */; };
 		CE49EE152789AFCF00C59E62 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE49EE142789AFCF00C59E62 /* SceneDelegate.swift */; };
 		CE49EE172789AFCF00C59E62 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE49EE162789AFCF00C59E62 /* ViewController.swift */; };
 		CE49EE1A2789AFCF00C59E62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE49EE182789AFCF00C59E62 /* Main.storyboard */; };
 		CE49EE1C2789AFD200C59E62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE49EE1B2789AFD200C59E62 /* Assets.xcassets */; };
 		CE49EE1F2789AFD200C59E62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE49EE1D2789AFD200C59E62 /* LaunchScreen.storyboard */; };
+		CE49EE272789B08900C59E62 /* TestCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE49EE262789B08900C59E62 /* TestCell.swift */; };
+		F3645FBAA14989FE89E856A6 /* Pods_DZ_4_5_2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9CE7BA1C357794FB4D01D80 /* Pods_DZ_4_5_2.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		157B123C80FACF7413287F9C /* Pods-DZ-4.5.2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DZ-4.5.2.release.xcconfig"; path = "Target Support Files/Pods-DZ-4.5.2/Pods-DZ-4.5.2.release.xcconfig"; sourceTree = "<group>"; };
+		92D76541B690DB1D6C6F82ED /* Pods-DZ-4.5.2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DZ-4.5.2.debug.xcconfig"; path = "Target Support Files/Pods-DZ-4.5.2/Pods-DZ-4.5.2.debug.xcconfig"; sourceTree = "<group>"; };
+		CE3DD5F0278B64D000C3D30E /* CustonButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustonButton.swift; sourceTree = "<group>"; };
+		CE3DD5F2278B6C1C00C3D30E /* TestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestModel.swift; sourceTree = "<group>"; };
 		CE49EE0F2789AFCF00C59E62 /* DZ-4.5.2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DZ-4.5.2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE49EE122789AFCF00C59E62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE49EE142789AFCF00C59E62 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +32,8 @@
 		CE49EE1B2789AFD200C59E62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE49EE1E2789AFD200C59E62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE49EE202789AFD200C59E62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE49EE262789B08900C59E62 /* TestCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCell.swift; sourceTree = "<group>"; };
+		F9CE7BA1C357794FB4D01D80 /* Pods_DZ_4_5_2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DZ_4_5_2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +41,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3645FBAA14989FE89E856A6 /* Pods_DZ_4_5_2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3469219FF4106E4F70BA7EC7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				92D76541B690DB1D6C6F82ED /* Pods-DZ-4.5.2.debug.xcconfig */,
+				157B123C80FACF7413287F9C /* Pods-DZ-4.5.2.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BA9852745ACEDE833658CBE6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F9CE7BA1C357794FB4D01D80 /* Pods_DZ_4_5_2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CE49EE062789AFCF00C59E62 = {
 			isa = PBXGroup;
 			children = (
 				CE49EE112789AFCF00C59E62 /* DZ-4.5.2 */,
 				CE49EE102789AFCF00C59E62 /* Products */,
+				3469219FF4106E4F70BA7EC7 /* Pods */,
+				BA9852745ACEDE833658CBE6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,6 +93,9 @@
 				CE49EE1B2789AFD200C59E62 /* Assets.xcassets */,
 				CE49EE1D2789AFD200C59E62 /* LaunchScreen.storyboard */,
 				CE49EE202789AFD200C59E62 /* Info.plist */,
+				CE49EE262789B08900C59E62 /* TestCell.swift */,
+				CE3DD5F0278B64D000C3D30E /* CustonButton.swift */,
+				CE3DD5F2278B6C1C00C3D30E /* TestModel.swift */,
 			);
 			path = "DZ-4.5.2";
 			sourceTree = "<group>";
@@ -74,9 +107,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE49EE232789AFD200C59E62 /* Build configuration list for PBXNativeTarget "DZ-4.5.2" */;
 			buildPhases = (
+				196ED1A717D31C57053355F3 /* [CP] Check Pods Manifest.lock */,
 				CE49EE0B2789AFCF00C59E62 /* Sources */,
 				CE49EE0C2789AFCF00C59E62 /* Frameworks */,
 				CE49EE0D2789AFCF00C59E62 /* Resources */,
+				CD480C535A107834180F2A7B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,12 +167,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		196ED1A717D31C57053355F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DZ-4.5.2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD480C535A107834180F2A7B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DZ-4.5.2/Pods-DZ-4.5.2-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DZ-4.5.2/Pods-DZ-4.5.2-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DZ-4.5.2/Pods-DZ-4.5.2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CE49EE0B2789AFCF00C59E62 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				CE49EE172789AFCF00C59E62 /* ViewController.swift in Sources */,
+				CE49EE272789B08900C59E62 /* TestCell.swift in Sources */,
+				CE3DD5F1278B64D000C3D30E /* CustonButton.swift in Sources */,
+				CE3DD5F3278B6C1C00C3D30E /* TestModel.swift in Sources */,
 				CE49EE132789AFCF00C59E62 /* AppDelegate.swift in Sources */,
 				CE49EE152789AFCF00C59E62 /* SceneDelegate.swift in Sources */,
 			);
@@ -283,6 +363,7 @@
 		};
 		CE49EE242789AFD200C59E62 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92D76541B690DB1D6C6F82ED /* Pods-DZ-4.5.2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -301,6 +382,7 @@
 		};
 		CE49EE252789AFD200C59E62 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 157B123C80FACF7413287F9C /* Pods-DZ-4.5.2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
